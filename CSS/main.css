@@ -1,51 +1,46 @@
-/* css/main.css - The Brand Bible */
+@font-face {
+  font-family: "Roboto";
+  src: url("../Fonts/Roboto-VariableFont_wdth,wght.ttf");
+}
+
 body {
-44
-font-family: Arial, sans-serif;
-color: #333333; /* A dark gray for readable body text */
-line-height: 1.6;
+  background-color: #3A3A3A;
+  color: #FFD700;
+  font-family: "Roboto", Arial, sans-serif;
 }
-h1, h2, h3 {
+
+nav {
+    background-color: #5A5A5A;
+    padding: 10px;
 }
-table {
-color: #2c3e50; /* A specific shade of dark, professional blue */
-width: 100%; /* Make tables take up the full width of their container
-*/
-border-collapse: collapse; /* Make borders look cleaner */
-margin-bottom: 2rem;
+
+nav a {
+  color: #FFD700;
+  text-decoration: none;
+  margin-right: 15px;
 }
-th, td {
-border: 1px solid #dddddd;
-text-align: left;
-padding: 8px;
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
 }
-thead {
-background-color: #f2f2f2; /* Give the header a light gray background
-*/
+
+img {
+  max-width: 100%;
 }
-/* === Component: Buttons === */
-/* Primary Call-to-Action Button - For the MOST important action */
+
 .btn-primary {
-display: inline-block; /* Allows us to set padding */
-background-color: #007BFF; /* A clear, attention-grabbing blue */
-color: white;
-padding: 12px 20px;
-border-radius: 5px;
-text-decoration: none;
-font-weight: bold;
-border: none;
+  background-color: #FFD700;
+  color: #3A3A3A;
+  padding: 10px;
+  text-decoration: none;
 }
-/* Add a hover effect for better user experience */
-.btn-primary:hover {
-background-color: #0056b3; /* A darker blue on hover */
+
+hr {
+  border: 1px solid #777777;
 }
-/* Secondary Button - For less critical actions like "Learn More" */
-.btn-secondary {
-display: inline-block;
-background-color: #6c757d; /* A neutral gray */
-color: white;
-padding: 10px 18px;
-border-radius: 5px;
-text-decoration: none;
-}
+
+footer {
+  background-color: #5A5A5A;
+  padding: 10px;
 }
