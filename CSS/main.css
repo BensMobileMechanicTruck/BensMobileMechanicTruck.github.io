@@ -55,3 +55,10 @@ footer {
     font-size: 18px;
   }
 }
+
+iframe {
+  width: 600px;
+  height: 450px;
+  border: 0;
+  max-width: 100%;
+}
