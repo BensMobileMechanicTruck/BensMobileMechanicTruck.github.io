@@ -156,6 +156,18 @@ footer {
     font-family: "Lato", sans-serif;
 }
 
+.hero {
+    background-image: url("../Images/heroBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 120px 20px;
+
+    text-align: center;
+    color: white;
+}
+
 @media (max-width: 768px) {
     nav a {
         display: block;
