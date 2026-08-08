@@ -47,4 +47,24 @@
   <url>
     <loc>https://bensmobilemechanictruck.github.io/template.html</loc>
   </url>
+
+  <url>
+    <loc>https://bensmobilemechanictruck.github.io/prosite/index.html</loc>
+  </url>
+
+  <url>
+    <loc>https://bensmobilemechanictruck.github.io/prosite/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://bensmobilemechanictruck.github.io/prosite/subscription.html</loc>
+  </url>
+
+  <url>
+    <loc>https://bensmobilemechanictruck.github.io/prosite/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://bensmobilemechanictruck.github.io/prosite/gallery.html</loc>
+  </url>
 </urlset>
