@@ -31,8 +31,16 @@ header {
 
 nav {
     background-color: #5B4636;
-    padding: 15px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 15px;
+}
+
+nav img {
+    height: 40px;
+    width: auto;
 }
 
 nav a {
