@@ -1,1 +1,158 @@
+@font-face {
+    font-family: "Bree Serif";
+    font-weight: normal;
+    font-style: normal;
+}
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #C8C9A6;
+    color: #2F2A24;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5B4636;
+}
+
+nav {
+    background-color: #5B4636;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #F7F3E9;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D9C8A3;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Bree Serif", serif;
+    color: #3D2F23;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #8C6239;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 14px;
+    font-weight: bold;
+    transition: background-color .3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #6F4D2F;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #5B4636;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #5B4636;
+    color: #F7F3E9;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-items: center;
+}
+
+.gallery img {
+    width: 120px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+    border: 0;
+}
+
+footer {
+    background-color: #5B4636;
+    color: #F7F3E9;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+hr {
+    border: 1px solid #8A8175;
+}
+
+@media (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+        width: 100%;
+    }
+}
