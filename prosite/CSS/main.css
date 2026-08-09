@@ -27,7 +27,6 @@ body {
 
 header {
     background-color: #5B4636;
-    width: 100%;
 }
 
 nav {
@@ -208,6 +207,9 @@ footer {
     .intro-text {
         width: 100%;
     }
+    .hero {
+        padding: 20px 10px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -261,5 +263,9 @@ footer {
         width: auto;
         padding: 5px;
         font-size: 12px;
+    }
+
+    .pricing-table th {
+    width: 33.33%;
     }
 }
