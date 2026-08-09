@@ -176,13 +176,14 @@ footer {
     color: white;
 }
 
-.hero p {
+.intro-text {
     width: 60%;
-    margin: 0 auto 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 768px) {
-    .hero p {
+    .intro-text {
         width: 100%;
     }
 }
