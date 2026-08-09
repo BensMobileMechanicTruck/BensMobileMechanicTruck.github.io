@@ -134,14 +134,19 @@ th {
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    justify-items: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: none;
 }
 
 .gallery img {
     width: 120px;
+    display: block;
+}
+
+.gallery td {
+    border: none;
+    padding: 3px;
 }
 
 iframe {
