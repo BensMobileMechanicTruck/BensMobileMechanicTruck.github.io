@@ -238,3 +238,27 @@ footer {
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    .pricing-table {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .pricing-table tbody {
+        display: table-row-group;
+    }
+
+    .pricing-table tr {
+        display: table-row;
+    }
+
+    .pricing-table th,
+    .pricing-table td {
+        display: table-cell;
+        width: auto;
+        padding: 5px;
+        font-size: 12px;
+    }
+}
