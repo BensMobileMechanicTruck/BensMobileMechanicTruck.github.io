@@ -134,14 +134,28 @@ th {
 }
 
 .gallery {
-    width: fit-content;
-    margin: 0 auto;
-    border-collapse: collapse;
+    display: table;
+    width: auto;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+
+.gallery tbody {
+    display: table-row-group;
+    width: auto;
+}
+
+.gallery tr {
+    display: table-row;
+    width: auto;
 }
 
 .gallery td {
+    display: table-cell;
+    width: auto;
     border: none;
-    padding: 2px;
+    padding: 0;
 }
 
 .gallery img {
