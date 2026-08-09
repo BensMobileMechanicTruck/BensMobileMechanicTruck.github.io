@@ -134,19 +134,21 @@ th {
 }
 
 .gallery {
+    width: fit-content;
     margin: 0 auto;
     border-collapse: collapse;
-    border: none;
-}
-
-.gallery img {
-    width: 120px;
-    display: block;
 }
 
 .gallery td {
     border: none;
-    padding: 3px;
+    padding: 2px;
+}
+
+.gallery img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
 }
 
 iframe {
