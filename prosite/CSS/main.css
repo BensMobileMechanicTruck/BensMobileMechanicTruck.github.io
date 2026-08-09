@@ -177,8 +177,13 @@ footer {
 }
 
 .hero p {
-  max-width: 700px;
-  margin: 0 auto 20px;
+    padding: 0 150px;
+}
+
+@media (max-width: 768px) {
+    .hero p {
+        padding: 0 10px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -193,12 +198,6 @@ footer {
     body {
         font-size: 18px;
     }
-}
-
-@media (max-width: 768px) {
-  .hero p {
-    max-width: 100%;
-  }
 }
 
 @media (max-width: 768px) {
